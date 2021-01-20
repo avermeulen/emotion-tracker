@@ -8,7 +8,7 @@ body {
 }
 
 .feeling {
-	background-color: lightgreen;
+	background-color: #ffbe0b;
 	padding: 1em;
 	border-radius: 1em;
 	border: 1px solid;
@@ -19,15 +19,19 @@ body {
 	width : 3m;
 	display: inline-block;
 	padding: 1em;
-	background-color: gainsboro;
+	background-color: #3a86ff;
 	border-radius: 1em;
 }
 
 .selected {
-	background-color: gray
+	background-color: #8338ec
 }
 
 
 .emotion:hover {
-	background-color: gray;
+	background-color: #8338ec;
+}
+
+.faded {
+	opacity: 0.3;
 }
