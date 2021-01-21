@@ -3,8 +3,8 @@ body {
 }
 
 .container {
-	width: 30em;
 	margin: auto;
+	width: 100%;
 }
 
 .feeling {
@@ -13,6 +13,11 @@ body {
 	border-radius: 1em;
 	border: 1px solid;
 	margin-bottom: 2em;
+	
+}
+
+.emotions {
+	
 }
 
 .emotion {
@@ -21,6 +26,7 @@ body {
 	padding: 1em;
 	background-color: #3a86ff;
 	border-radius: 1em;
+	margin : auto;
 }
 
 .selected {
@@ -34,4 +40,22 @@ body {
 
 .faded {
 	opacity: 0.3;
+}
+
+.share {
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #8338ec;
+	border-radius: 0.5em;
+	color: white;
+	border: 0em solid;
+	font-size: 1.5em;
+	width: 100%
+}
+
+
+@media (min-width: 769px) {
+	.container {
+		width: 50%;
+	}
 }
